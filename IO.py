@@ -20,6 +20,10 @@ age = raw_input("Enter your age ")
 print "Student age is: ", age
 print type(age)
 
+#Get Multiple inputs From a User in One Line
+name, age, marks = input("Enter your Name, Age, Percentage separated by space ").split()
+print("\n")
+print("User Details: ", name, age, marks)
 
 #Command Line input
 from sys import argv
